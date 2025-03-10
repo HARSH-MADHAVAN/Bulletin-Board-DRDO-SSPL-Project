@@ -1,7 +1,7 @@
 # Bulletin Board
 
 ## 📌 Project Overview
-Bulletin Board is a web-based forum system built with **React.js** and **React Router**. It provides different forums for various topics such as **Admin** and **CGHS**. The application includes authentication for user login and role-based access.
+Bulletin Board is a web-based platform built with **React.js** and **React Router**. It serves as a centralized repository for documents and files categorized under different topics. The application includes authentication for user login and supports role-based access to specific sections
 
 ## 📌 Installation
 1. Clone the repository:
