@@ -1,14 +1,21 @@
-# React + Vite
+# Bulletin Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+Bulletin Board is a web-based forum system built with **React.js** and **React Router**. It provides different forums for various topics such as **Admin** and **CGHS**. The application includes authentication for user login and role-based access.
 
-Currently, two official plugins are available:
+## 📌 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/bulletin-board.git
+   cd bulletin-board
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-type "npm run dev" in terminal to run the project on same address
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
