@@ -1,0 +1,34 @@
+nav img {
+    height: 20px;
+}
+
+.nav-1 {
+    background-color: aliceblue;
+    margin-bottom: 3px;
+    padding: 10px;
+    justify-content: right;
+}
+.nav-1 .login-btn {
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav-2 {
+    background-color: aliceblue;
+    margin-bottom: 3px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-2 .home-btn {
+    font-weight: bold;
+    gap: 10px;
+    cursor: pointer;
+}
+.nav-2 .search-btn {
+    cursor: pointer;
+}
+
+nav div:nth-child(3) {
+    font-size: .9rem;
+    margin: 5px 0;
+}

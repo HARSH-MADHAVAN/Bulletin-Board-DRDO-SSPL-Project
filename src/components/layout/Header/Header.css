@@ -1,0 +1,14 @@
+header img {
+    height: 20px;
+}
+
+.main-header {
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 3px;
+}
+.main-header h1 {
+    color: white;
+}

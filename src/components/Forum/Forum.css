@@ -1,0 +1,63 @@
+/* FORUM */
+.forum {
+    background-color: var(--blue);
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+.forum p {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 8px 0;
+}
+
+.topic {
+    color: black;
+}
+
+/* FORUM-COMPONENT */
+.op { /* UNIVERSAL FORUM CLASS */
+    background-color: aliceblue;
+    height: 10%;
+    padding: 10px 15px;
+    margin-bottom: 2px;
+}
+
+.op .content {
+    cursor: pointer;
+}
+
+.op .content .circle {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.op .content .circle img {
+    height: 95%;
+    width: 95%;
+}
+
+.op .content .op-data {
+    margin: 0 10px;
+}
+
+.op .content .op-data .docType {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* TOPIC_COMPONENT */
+
+.op .content .op-data .docName {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.op .content .circle .fileImg {
+    height: 80%;
+    width: 80%;
+}
