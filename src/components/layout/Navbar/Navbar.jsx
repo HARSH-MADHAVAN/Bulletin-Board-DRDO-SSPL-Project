@@ -27,7 +27,7 @@ function Navbar() {
       </div>
 
       <div className="flex-right">
-        It is currently 19 Feb 2025, 14:17:28
+        It is currently 21 May 2025, 19:09:29
       </div>
     </nav>
   );

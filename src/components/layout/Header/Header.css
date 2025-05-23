@@ -6,7 +6,7 @@ header img {
     background-color: var(--blue);
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 120px;
     margin-bottom: 3px;
 }
 .main-header h1 {
