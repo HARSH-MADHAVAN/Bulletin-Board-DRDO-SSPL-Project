@@ -4,7 +4,7 @@ A secure, real-time bulletin board system developed for SSPL-DRDO to streamline 
 
 ## 🌐 Demo
 
-[Live Demo](https://your-deployed-link.com) *(Optional)*
+[Live Demo](https://Harsh-Madhavan.github.io/Bulletin-Board-DRDO-SSPL-Project/) *(Optional)*
 
 ---
 
