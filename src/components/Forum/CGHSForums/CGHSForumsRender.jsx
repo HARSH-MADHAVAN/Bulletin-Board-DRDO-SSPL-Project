@@ -4,8 +4,11 @@ import '../Forum.css';
 import { Link } from "react-router-dom";
 
 // Importing Components
-import CGHSLatestGuidelines from "./Topics/CGHSLatestGuidelines.jsx";
-import CGHSRateListUpdated from "./Topics/CGHSRateListUpdated.jsx";
+import CGHSImportantGuidelines from "./Topics/CGHSImportantGuidelines.jsx";
+import CGHSRatesList from "./Topics/CGHSRatesList.jsx";
+import CGHSHospitals from "./Topics/CGHSHospitals.jsx";
+import CGHSPlasticCardForm from "./Topics/CGHSPlasticCardForm.jsx";
+import CGHSReimbursmentForm from "./Topics/CGHSReimbursmentForm.jsx";
 
 function CGHSForumsRender() {
   return (
@@ -13,8 +16,11 @@ function CGHSForumsRender() {
       <div>
       <div className="forum">
             <p className="flex-center">Topics</p>
-            <CGHSLatestGuidelines />
-            <CGHSRateListUpdated />
+          <CGHSImportantGuidelines />
+          <CGHSHospitals />
+          <CGHSRatesList />
+          <CGHSPlasticCardForm />
+          <CGHSReimbursmentForm />
         </div>
       </div>
     </>

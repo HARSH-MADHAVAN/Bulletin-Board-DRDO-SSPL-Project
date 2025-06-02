@@ -11,8 +11,8 @@ function FinanceForum() {
         <div className="content flex-al-center">
           <div className="circle"><img src={documentation} alt="" /></div>
           <div className="op-data" id="op4-data">
-            <div className="docType" data-topic="Finance">Finance</div>
-            <div className="noOfTopics">Topics: <b>0</b></div>
+            <div className="docType" data-topic="Finance">वित्त / Finance</div>
+            <div className="noOfTopics">Topics: <b>5</b></div>
           </div>
         </div>
       </div>

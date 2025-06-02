@@ -11,8 +11,8 @@ function CGHSForum() {
         <div className="content flex-al-center">
           <div className="circle"><img src={documentation} alt="" /></div>
           <div className="op-data" id="op2-data">
-            <div className="docType" data-topic="CGHS">CGHS</div>
-            <div className="noOfTopics">Topics: <b>12</b></div>
+            <div className="docType" data-topic="CGHS">सीजीएचएस / CGHS</div>
+            <div className="noOfTopics">Topics: <b>5</b></div>
           </div>
         </div>
       </div>

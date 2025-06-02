@@ -11,8 +11,8 @@ function CSDCanteenForum() {
         <div className="content flex-al-center">
           <div className="circle"><img src={documentation} alt="" /></div>
           <div className="op-data" id="op3-data">
-            <div className="docType" data-topic="CSDCanteen">CSD Canteen</div>
-            <div className="noOfTopics">Topics: <b>0</b></div>
+            <div className="docType" data-topic="CSDCanteen">सीएसडी कैंटीन / CSD Canteen</div>
+            <div className="noOfTopics">Topics: <b>10</b></div>
           </div>
         </div>
       </div>

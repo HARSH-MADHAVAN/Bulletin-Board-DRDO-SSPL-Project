@@ -4,7 +4,9 @@ import '../Forum.css';
 import { Link } from "react-router-dom";
 
 // Importing Components
-
+import AdminTADA from "./Topics/AdminTADA.jsx";
+import AdminForms from "./Topics/AdminForms.jsx";
+import AdminOfficialBags from "./Topics/AdminOfficialBags.jsx";
 
 function AdminForumsRender() {
   return (
@@ -12,6 +14,9 @@ function AdminForumsRender() {
       <div>
       <div className="forum">
             <p className="flex-center">Topics</p>
+          <AdminForms />
+          <AdminTADA />
+          <AdminOfficialBags />
         </div>
       </div>
     </>
