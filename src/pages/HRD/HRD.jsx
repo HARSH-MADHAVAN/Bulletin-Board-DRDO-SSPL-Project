@@ -1,7 +1,7 @@
 import './HRD.css';
 import Header from '../../components/layout/Header/Header.jsx';
 import Navbar from '../../components/layout/Navbar/Navbar.jsx';
-import Forums from '../../components/Forum/CGHSForums/CGHSForumsRender.jsx';
+import Forums from '../../components/Forum/HRDForums/HRDForumsRender.jsx';
 import BottomNavbar from '../../components/layout/Navbar/BottomNavbar.jsx';
 
 function HRD() {
@@ -10,7 +10,7 @@ function HRD() {
       <div className="container">
         <Header />
         <Navbar />
-        <Forums /> {/* Contains CGHS Forums/Documents/Files */}
+        <Forums /> {/* Contains HRD Forums/Documents/Files */}
         <BottomNavbar />
       </div>
     </>

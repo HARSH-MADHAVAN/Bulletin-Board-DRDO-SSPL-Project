@@ -1,7 +1,7 @@
 import './CSDCanteen.css';
 import Header from '../../components/layout/Header/Header.jsx';
 import Navbar from '../../components/layout/Navbar/Navbar.jsx';
-import Forums from '../../components/Forum/CGHSForums/CGHSForumsRender.jsx';
+import Forums from '../../components/Forum/CSDCanteenForums/CSDCanteenForumsRender.jsx';
 import BottomNavbar from '../../components/layout/Navbar/BottomNavbar.jsx';
 
 function CSDCanteen() {
@@ -10,7 +10,7 @@ function CSDCanteen() {
       <div className="container">
         <Header />
         <Navbar />
-        <Forums /> {/* Contains CGHS Forums/Documents/Files */}
+        <Forums /> {/* Contains CSD Canteen Forums/Documents/Files */}
         <BottomNavbar />
       </div>
     </>

@@ -61,3 +61,65 @@
     height: 80%;
     width: 80%;
 }
+
+/* Center content within the card */
+.op-data {
+  /* padding: 20px; */
+  background-color: #eaf6fd; /* light blue */
+  border-radius: 8px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.op-data h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #003366;
+  font-size: 1.2rem;
+}
+
+/* Canteen Menu Table Styles */
+.canteen-menu {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.canteen-menu th, .canteen-menu td {
+  border: 1px solid #003366;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.canteen-menu th {
+  background-color: #003366;
+  color: white;
+}
+
+.canteen-menu tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.canteen-menu tr:hover {
+  background-color: #d0e7f9;
+}
+
+/* Circle image styling */
+/* .circle img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+} */
+
+/* Flexbox helpers */
+.flex-al-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  text-align: center;
+}
